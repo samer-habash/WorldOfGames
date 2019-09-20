@@ -1,5 +1,5 @@
 selenium==3.141.0
-PyYAML==3.12
+PyYAML==5.1
 Flask==1.0.2
 Click==7.0
 Jinja2==2.10.1
