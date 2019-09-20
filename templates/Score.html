@@ -1,0 +1,8 @@
+{% extends "main.html" %}
+{% block content %}
+    {% if SCORE %}
+        <center><h1 id="Score"  style="color:Green;"> Your Score is {{ SCORE }} </h1></center>
+    {% else %}
+        <center><h1 id="Score" style="color:red;"> Your Score is {{ SCORE }} , Please win to raise your score </h1></center>
+{% endif %}
+{% endblock %}
